@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">SpicyN\'Sizzling</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sa">Burger</string>
+    <string name="sb">Manchurian</string>
+    <string name="sc">Maggie</string>
+    <string name="sd">Chilly Potato</string>
+    <string name="ma">Rice</string>
+    <string name="mb">Paneer</string>
+    <string name="mc">Naan</string>
+    <string name="md">Malai Kofta</string>
+    <string name="da">Ice-Cream</string>
+    <string name="db">Thandi-Kheer</string>
+    <string name="dc">Jalebi</string>
+    <string name="dd">Cold-Drink</string>
+    <string name="cart">View Cart</string>
+    <string name="btn">Add to Cart</string>
+    <string name="order">Order Now</string>
+    <string name="back">Back</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="min">-</string>
+    <string name="max">+</string>
+    <string name="first">Go Foodie  >>></string>
+    <string name="itemtoremove">Click item to remove:</string>
+    <string name="reset">Reset</string>
+    <string name="title_activity_address">Address</string>
+    <string name="title_activity_main">SpicyNSizzling</string>
+    <string name="title_activity_starters">starters</string>
+    <string name="title_activity_main_course">main_course</string>
+    <string name="title_activity_desserts">desserts</string>
+    <string name="title_activity_cart">Cart</string>
+    <string name="title_activity_notification">Notification</string>
+    <string name="title_activity_mridul_address">Address Details</string>
+    <string name="exit">Exit</string>
+</resources>

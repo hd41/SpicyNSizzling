@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="hello"
+        android:id="@+id/action_cart"
+        android:icon="@drawable/cart"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/exit"/>
+    <item
+        android:id="@+id/Reset"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        android:title="@string/reset"/>
+    <item  android:id="@+id/item1"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="@string/cart"/>
+</menu>

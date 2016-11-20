@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Delivery Details"
+        android:textColor="#222222"
+        android:textAlignment="center"
+        android:textSize="32sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textColor="#444444"
+            android:layout_weight="0.25"
+            android:textSize="24sp"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textShortMessage"
+            android:layout_weight="0.75"
+            android:id="@+id/editText"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Contact No.:"
+            android:textColor="#444444"
+            android:layout_weight="0.45"
+            android:textSize="24sp"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="text|number"
+            android:layout_weight="0.70"
+            android:id="@+id/editText5"/>
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:textColor="#444444"
+        android:textSize="26sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="38sp"
+        android:layout_marginTop="10dp"
+        android:padding="0sp"
+        android:hint="Delivery Address"
+        android:id="@+id/editText6"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="38sp"
+        android:id="@+id/textView8"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="180sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Order Now"
+        android:textSize="24sp"
+        android:id="@+id/button10"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:textSize="26sp"/>
+
+
+</LinearLayout>
+
+</ScrollView>
+
